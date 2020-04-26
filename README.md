@@ -1,2 +1,0 @@
-# snaccstory
-SnaccStory Website!
