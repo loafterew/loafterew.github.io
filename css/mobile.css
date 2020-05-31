@@ -1,0 +1,46 @@
+@media all and (max-width: 450px) {
+  #bio_container, #experience, #projects {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  #bio_body {
+    width: 100%;
+  }
+  #title_1, #title_2, #title_3, #title_4 {
+    font-size: 45px;
+  }
+  #intro {
+    left: 14%
+  }
+  .job_title {
+    font-size: 12px;
+    margin: 0px;
+    padding: 0;
+  }
+  ul.techlist {
+    padding-left: 1em;
+  }
+  p.slider__txt {
+    margin-left: 1em;
+  }
+  .lang_bar {
+    flex: 3%;
+  }
+  #hs-logo {
+    margin: 1em 1em auto 1em;
+  }
+
+  .slider__caption.empl_slid {
+    margin: 0;
+  }
+  .slider__caption {
+    margin: 1em 0 0 16px;
+  }
+  a .fab {
+    margin-left: 10px;
+  }
+  #video-left {
+    margin-left: 5vw;
+    width: 90%;
+  }
+}

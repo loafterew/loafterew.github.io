@@ -1,0 +1,139 @@
+#experience {
+  width: 100%;
+  position: relative;
+  display: block;
+  padding-top: 0px;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  background: #f7f7f7;
+  color: #141414;
+  font-family: 'Muli', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@media all and (max-width: 1500px) {
+  #video-art { display: none }
+}
+
+#video-right {
+  padding-top: 0em;
+  padding-bottom: 2em;
+  margin-right: 20vw;
+  align-self: center;
+}
+
+#video-left {
+  width: 50%;
+  padding-top: 0em;
+  padding-bottom: 2em;
+  margin-left: 20vw;
+  margin-right: 2vw;
+}
+
+.video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+video {
+  float: right;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  filter: grayscale(0%);
+  transition: filter 0.3s linear;
+}
+
+.playpause {
+  background-image: url("../res/pause.png");
+  background-repeat:no-repeat;
+  width:20%;
+  height:20%;
+  position:absolute;
+  display: none;
+  left:0%;
+  right:0%;
+  top:0%;
+  bottom:0%;
+  margin:auto;
+  background-size:contain;
+  background-position: center;
+  text-align: center;
+}
+
+.vol-contain {
+  width:20%;
+  height:20%;
+  position:absolute;
+  left:0%;
+  right:0%;
+  top:50%;
+  bottom:0%;
+  margin:auto;
+  background-size:contain;
+  background-position: center;
+  text-align: center;
+}
+
+#progress {
+  display: block;
+  color: #fff;
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 300;
+  margin-top: 70%;
+}
+
+#volume {
+  display: none;
+  color: #fff;
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 300;
+  margin-top: 60%;
+}
+
+#video-flex {
+  display: flex;
+}
+
+@media all and (max-width: 1200px) {
+  #video-flex { display: block }
+  #video-right {
+    margin-right: 5vw;
+    margin-left: 5vw;
+  }
+}
+
+h3 {
+  display: block;
+  color: #999;
+  width: 90%;
+  font-family: 'Muli', sans-serif;
+  padding-left: 3px;
+  font-size: 18px;
+  margin-top: 0;
+  line-height: 1.2;
+  font-weight: 300;
+  margin: 0 1rem 0.3rem 1.6rem;
+}
+
+.job_info {
+  display: inline-block
+}
+
+#hs-logo {
+  border-radius: 3px;
+  margin: 1em -1em auto 2em;
+}
+
+#video-art {
+  align-self: flex-end;
+  width: 13vw;
+}
